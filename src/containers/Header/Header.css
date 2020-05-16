@@ -1,0 +1,37 @@
+
+.header-container{
+    background-image: url("../../assets/images/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    margin: 0;  
+}
+
+.header-components{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings-container{
+    text-align: center;
+    padding-left: 10px;
+    
+}
+
+.headings-container > h1, h2{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.headings-container > span{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 18px;  
+}
+
+.featuredprojects-container{
+    align-items:center;
+}

@@ -1,0 +1,38 @@
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 38, 38);
+}
+.image-container{
+    padding-right: 0;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+.home, .about, .projects, .blog{
+    flex: 1;
+    color: #EDF2F2;
+    padding-left: 25px;
+    font-size: 23px;
+    width: 50%;
+}
+li:hover{
+    cursor: pointer;
+    margin: 8px 0;
+    color: brown;
+}

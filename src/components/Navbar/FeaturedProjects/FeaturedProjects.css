@@ -1,0 +1,42 @@
+.main-container{
+    flex: 1;
+    background-color: rgb(31, 33, 33, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    padding: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .image1:hover{
+      cursor: pointer;
+      opacity: 0.5;
+  }
+  .image2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.image3:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.image4:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
